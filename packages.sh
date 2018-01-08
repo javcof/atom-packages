@@ -1,7 +1,7 @@
 # config
 npm config set loglevel=http
 
-# byby/atom-clock
+# b3by/atom-clock
 # Place a clock or calendar in ur status bar.
 apm uninstall atom-clock
 cd ~/.atom/packages/
