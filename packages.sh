@@ -36,3 +36,12 @@ git clone https://github.com/atom-minimap/minimap.git
 cd minimap/
 npm install
 cd ~
+
+# skandasoft/browser-plus
+# Browser for Atom
+apm uninstall browser-plus
+cd ~/.atom/packages/
+git clone https://github.com/skandasoft/browser-plus.git
+cd browser-plus/
+npm install
+cd ~
