@@ -40,8 +40,17 @@ cd ~
 # skandasoft/browser-plus
 # Browser for Atom
 apm uninstall browser-plus
+# cd ~/.atom/packages/
+# git clone https://github.com/skandasoft/browser-plus.git
+# cd browser-plus/
+# npm install
+# cd ~
+
+# skandasoft/open-in-browsers
+# Open in different browsers - IE/Chrome/Firefox/Opera/BrowserPlus
+apm uninstall open-in-browsers
 cd ~/.atom/packages/
-git clone https://github.com/skandasoft/browser-plus.git
-cd browser-plus/
+git clone https://github.com/skandasoft/open-in-browsers.git
+cd open-in-browsers/
 npm install
 cd ~
