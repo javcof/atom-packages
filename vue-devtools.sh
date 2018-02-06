@@ -11,4 +11,5 @@ npm config set loglevel=http
 cd ~/Documents/Github/
 git clone https://github.com/vuejs/vue-devtools.git
 cd vue-devtools/
+npm install
 npm run build
