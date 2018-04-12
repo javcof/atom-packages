@@ -1,7 +1,3 @@
-# config
-npm config set loglevel=http
-# npm --registry https://registry.npm.taobao.org install
-
 # Chrome extensions
 ## Clone this repo
 ## npm install (or yarn install) if you are using yarn as the package manager
@@ -9,10 +5,10 @@ npm config set loglevel=http
 ## Open chrome extension page: chrome://extensions/
 ## Check "developer mode"
 ## Click "load unpacked extension", and choose shells/chrome
-## https://blog.csdn.net/wp_boom/article/details/79011177
+## https://github.com/zalmoxisus/redux-devtools-extension
 
 cd ~/Documents/Github/
-git clone git://github.com/facebook/react-devtools.git
-cd react-devtools/
+git clone https://github.com/zalmoxisus/redux-devtools-extension
+cd redux-devtools-extension/
 cnpm install
-npm run build:extension:chrome
+npm run build:extension
